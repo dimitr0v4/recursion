@@ -6,7 +6,7 @@
         {
             Console.WriteLine("enter number");
       int n = int.Parse(Console.ReadLine());
-            Console.WriteLine("the sum of its digits is equal to "+DigitSum(n));
+            Console.WriteLine($"the sum of its digits is equal to {DigitSum(n)}");
 
         }
         public int DigitSum(int n)
